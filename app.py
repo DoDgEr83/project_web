@@ -5,7 +5,7 @@ from Models import *
 from Config import config
 
 app = Flask(__name__)
-# app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:admin@lockalhost:3386/price_test"
+# app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://"
 # app.config.from_object(config)
 # migrate = Migrate(app, db)
 
